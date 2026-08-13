@@ -1,0 +1,4 @@
+interface:
+  display_name: "应用市场调研入库"
+  short_description: "提取第三方应用资料和图片，查重后通过 Lark CLI 写入表格"
+  default_prompt: "使用 $app-market-research-lark-ingest，把这个第三方应用链接的标题、副标题、描述、产品简介、状态、Logo 和横向市场图完整写入指定表格。"
